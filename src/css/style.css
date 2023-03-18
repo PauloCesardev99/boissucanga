@@ -1,0 +1,30 @@
+img{
+    margin-top: 10px;
+}
+
+/* cabecalho */
+
+.cabecalho{
+padding: 20px 15px;
+background-color: rgba(0, 4, 255, 0.281);
+}
+
+.cabecalho nav{
+    text-align: center;
+}
+
+.cabecalho nav ul li {
+    padding-top: 10px;
+}
+
+.cabecalho nav ul li a:hover {
+    font-weight: bold;
+}
+
+/* Príncipal*/
+main{
+    padding: 10px;
+  
+}
+
+
