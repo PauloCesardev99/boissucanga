@@ -4,9 +4,14 @@ img{
 
 /* cabecalho */
 
+.cabecalho img{
+    width: 100px;
+}
+
 .cabecalho{
 padding: 20px 15px;
 background-color: rgba(0, 4, 255, 0.281);
+text-align: center;
 }
 
 .cabecalho nav{
@@ -25,6 +30,10 @@ background-color: rgba(0, 4, 255, 0.281);
 main{
     padding: 10px;
   
+}
+main h1::after{
+    content: "\01F3D6";
+    padding-left: 10px;
 }
 
 
