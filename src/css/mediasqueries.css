@@ -1,8 +1,50 @@
 @media (min-width: 1200px){
-
-    main img{
-        display: none;
+    
+    body{
+        background-color: rgba(9, 201, 137, 0.705) ;
+    }
+    
+    /*   Cabecalho     */
+    .cabecalho{
+        position: relative;
+        height: 130px;
+    
+    }
+    .cabecalho img{
+        position: absolute;
+        top: 5%;
+        left: 10px;
+        display: inline-block;
+        
+    }
+    .cabecalho nav  {
+        display: inline-block;     
+        position: absolute;
+        top: 50px;
+        left: 35%;
+    }
+    
+    .cabecalho nav li {
+        display: inline-block;     
+        padding-left: 10px;
+        font-size: 1.4em;
+    }
+    
+    /*  Conteúdo príncipal */
+    main{
+        max-width: 1000px;
+        margin: auto;
+        background-color: white;
     }
 
+   main .img{
+    text-align: center;
+    
+   }
 
+   main .img img{
+    width: 80%;
+   }
+
+   
 }
